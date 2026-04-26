@@ -133,9 +133,19 @@ code {
   font-weight: 600;
 }
 
+.bio-paragraph strong {
+  color: var(--accent);
+}
+
 .bio-paragraph p {
   color: var(--text);
   line-height: 1.65;
+  margin-bottom: 12px;
+  font-size:14px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .main-div {
