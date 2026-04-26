@@ -37,14 +37,14 @@ function MapPanel({title, mapData}: ProjectsMapPanelProperties){
     const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
 
     const landmarks = mapData.features.filter((feature) => {
-        if(feature.properties.featureType === "landmark"){
+        if(feature.properties?.featureType === "landmark"){
             return true;
         }
         return false;
     });
 
     const streets = mapData.features.filter((feature) =>{
-        if(feature.properties.featureType === "street"){
+        if(feature.properties?.featureType === "street"){
             return true;
         }
         return false;
@@ -52,7 +52,7 @@ function MapPanel({title, mapData}: ProjectsMapPanelProperties){
 
     const intersections = mapData.features.filter(
         (feature) =>{
-            if(feature.properties.featureType === "intersection"){
+            if(feature.properties?.featureType === "intersection"){
                 return true;
             }
             else{
@@ -109,7 +109,7 @@ function MapPanel({title, mapData}: ProjectsMapPanelProperties){
 
         return (
         <g key={landmark.properties?.id}
-            onClick={(e) => {
+            onClick={() => {
         console.log('clicked', landmark.properties?.name)
         setSelectedLandmark(landmark)
         }} style={{ cursor: 'pointer' }}>
@@ -262,7 +262,7 @@ function MapPanel({title, mapData}: ProjectsMapPanelProperties){
                 }
                 {intersections.map((intersection) => {
                     const coords = (intersection.geometry as LineString).coordinates
-                    const color = natureColors[intersection.properties?.nature] ?? 'white'
+                    const color = natureColors[intersection.properties?.nature as keyof NatureColors] ?? 'white'
                     return (
                         <g key={intersection.properties?.id}>
                             <polyline
@@ -287,7 +287,7 @@ function MapPanel({title, mapData}: ProjectsMapPanelProperties){
                     )
                 })}
                 {
-                    landmarks.map(plotPoint)
+                    (landmarks as Feature<Point>[]).map(plotPoint)
                 }
 
                 </g>

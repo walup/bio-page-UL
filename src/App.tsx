@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import BioParagraph from './BioParagraph'
 import './App.css'
 import bioContent from "/Users/legariapena.j/Documents/biopage-mockup/bio-page/my-app/data/bio.md?raw"
@@ -39,7 +38,7 @@ function App() {
   return (
     <div className = "main-div">
       <BioParagraph bioHeader = "About" bioText = {bioContent}></BioParagraph>
-      <MapPanel title="Projects Map" mapData = {mapData}></MapPanel>
+      <MapPanel title="Projects Map" mapData = {mapData as any}></MapPanel>
       <Dispatches dispatches={dispatches}></Dispatches>
     </div>
   )

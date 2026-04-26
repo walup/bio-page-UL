@@ -29,7 +29,7 @@ function DispatchCard({ title, date, content }: Dispatch) {
 function Dispatches({ dispatches }: DispatchesProps) {
     return (
         <div className="dispatches">
-            <h2>Dispatches</h2>
+            <h2>Notes</h2>
             <div className="dispatches__list">
                 {dispatches.map((d) => (
                     <DispatchCard key={d.date} {...d} />

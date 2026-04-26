@@ -1,6 +1,4 @@
 
-import { useState } from "react"
-
 type ProjectCardProps = {
   name: string
   description: string
@@ -12,11 +10,8 @@ type ProjectCardProps = {
 
 function ProjectCard({ name, description, domain, scale, status , onClose}: ProjectCardProps) {
   const badgeClass = `project-card__badge project-card__badge--${status}`
-  const [closed, setClosed] = useState<boolean>(false);
-
   return (
     <>
-    {!closed &&
     <div className="project-card">
       <div className="project-card__header">
         <h3 className="project-card__name">{name}</h3>
@@ -33,7 +28,7 @@ function ProjectCard({ name, description, domain, scale, status , onClose}: Proj
         <span className="project-card__label">Scale: {scale}</span>
       </div>
       <p className="project-card__description">{description}</p>
-    </div>}</>
+    </div></>
   );
 }
 
