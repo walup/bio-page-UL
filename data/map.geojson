@@ -1,0 +1,3138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -350,
+          180
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "featureType": "landmark",
+        "name": "Tumor sims with CA",
+        "domain": "biological",
+        "scale": "fine",
+        "active": true,
+        "radius": 80,
+        "status": "finished",
+        "description": "We developed a tumor growth and therapy simulations using Cellular Automata. The simulation was used to study time series of fractal dimension and entropy as the tumor developed. \n\n\nYou can consult the paper at:\nhttps://doi.org/10.1016/j.jtbi.2023.111462"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69,
+          201
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "featureType": "landmark",
+        "name": "Angiogenesis simulation with CA",
+        "domain": "biological",
+        "scale": "fine",
+        "active": true,
+        "radius": 80,
+        "status": "finished",
+        "description": "Studied how angiogenic vascular network properties influence tumor development, and how the disruption of this network could be utilized in cancer therapy.\n\nThe full paper can be consulted at:\n\nhttps://doi.org/10.1016/j.chaos.2024.115199"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.801556441003676,
+          -41.6174906196667
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "featureType": "landmark",
+        "name": "CA simulation of immunotherapy + autoimmune disease",
+        "domain": "biological",
+        "scale": "fine",
+        "active": true,
+        "radius": 80,
+        "status": "finished",
+        "description": "Drawing from previous CA works we developed a simulation that allowed to study the interaction between autoimmune diseases, inflammation, immunotherapy, and cancer. \n\nThe full paper can be consulted here:\n\nhttps://doi.org/10.1016/j.apm.2025.116315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          239.55629085764787,
+          414.243072669359
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "featureType": "landmark",
+        "name": "Automated walkability assessment in Mexico and Mumbai",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "idle",
+        "description": "Developed an automated street-view-based system for  assessing infrastructure close to transport stations in Monterrey, Mexico, and Mumbai, India. \n\nThe paper for this project is in review."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          340.190222924347,
+          180.17095996233965
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "featureType": "landmark",
+        "name": "SEM study of walkability in Monterrey",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "idle",
+        "description": "We proposed an SEM model based on survey data collected at two transport stations in Monterrey: Cuauhtémoc and San Nicolás. Findings highlighted the importance of safety perception when walking in Mexico. \n\nThe paper for this project is under review. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          570.0261762328463,
+          -112.30087352081061
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "featureType": "landmark",
+        "name": "SEM study of the impact of sociodemographic factors on walkability in Monterrey and Mumbai",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "active",
+        "description": "We are developing a SEM-MIMIC model to study the impact of factors like area familiarity, socioeconomic conditions, and gender on walkability near transport stations in Monterrey and Mumbai."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          441.15421068923365,
+          708.1948725029737
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "featureType": "landmark",
+        "name": "Development of a cluster-then-predict method to improve building height estimations",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "active",
+        "description": "Proposed a novel method that combines (1) street-view imagery and (2) footprints to improve building height estimations and supply this information for data-scarce contexts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.86462618637898,
+          709.9886922046433
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "featureType": "landmark",
+        "name": "Street-view route recommendations systems for Mexico City",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "idle",
+        "description": "For CS7375 I developed a walking route recommendation system for Mexico City. The system takes into consideration (1) the conditions of the infrastructure that are observed at a street-level (e.g. presence of sidewalks, street-lights, vegetation), and (2) qualitative attributes left by other users for routes that are similar to the ones displayed to the user.\n\nThe continuation of this work is pending."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          835.660941735735,
+          499.19747542552824
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "featureType": "landmark",
+        "name": "Analysis of the relation between building materials and environmental sensor data",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "active",
+        "description": "For this study we are \n\n1. Combining street-view + satellite data to obtain maps for temperature and PM2.5 around the Northeastern Boston Campus.\n\n2. Analyzing the relationship between building materials and the environmental variables to provide urban design recommendations."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          745.9102595269734,
+          970.468752869945
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "featureType": "landmark",
+        "name": "Imageable library development",
+        "domain": "urban",
+        "scale": "medium",
+        "active": true,
+        "radius": 80,
+        "status": "active",
+        "description": "We developed the imageable library, which automatically labels building height and façade materials for footprint data. \n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -350.83951348396516,
+            179.84447886297386
+          ],
+          [
+            -355.821975218659,
+            201.1978862973762
+          ],
+          [
+            -339.4510295189506,
+            201.9096665451896
+          ],
+          [
+            -343.721711005831,
+            236.7868986880467
+          ],
+          [
+            -370.05758017492724,
+            236.7868986880467
+          ],
+          [
+            -370.05758017492724,
+            256.7167456268222
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 4,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -348.70417274052494,
+            176.9973578717202
+          ],
+          [
+            -374.3282616618077,
+            184.1151603498543
+          ],
+          [
+            -370.9634218421322,
+            196.16690920783424
+          ],
+          [
+            -383.5680022992719,
+            201.2087413906901
+          ],
+          [
+            -389.52653124264697,
+            194.33351568679575
+          ],
+          [
+            -403.73533103069525,
+            202.81296072159878
+          ],
+          [
+            -403.96450522082506,
+            212.89662508731047
+          ],
+          [
+            -417.4857824384839,
+            222.29276688263272
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 5,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -361.7964542369398,
+            236.0432182904214
+          ],
+          [
+            -363.40067356784846,
+            221.14689593198366
+          ],
+          [
+            -375.77607983485825,
+            220.45937336159423
+          ],
+          [
+            -378.7553443065458,
+            199.6045220597814
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 6,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -350.56691892057904,
+            179.89554170861766
+          ],
+          [
+            -373.48433793356014,
+            164.9992193501799
+          ],
+          [
+            -384.4846990597911,
+            170.4993999132954
+          ],
+          [
+            -397.31845370706054,
+            162.7074774488818
+          ],
+          [
+            -396.6309311366711,
+            150.79041956213163
+          ],
+          [
+            -416.56908567796467,
+            135.20657463330446
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 7,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -399.61019560835865,
+            200.9795672005603
+          ],
+          [
+            -396.1725827564115,
+            163.62417420940105
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 8,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -349.2964769471068,
+            179.15723795115386
+          ],
+          [
+            -359.0329476216094,
+            151.75087605255385
+          ],
+          [
+            -373.096738595891,
+            148.14477580273805
+          ],
+          [
+            -383.19381929537525,
+            111.36255325461701
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 9,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -348.93586692212523,
+            178.79662792617228
+          ],
+          [
+            -341.72366642249364,
+            153.19331615248018
+          ],
+          [
+            -331.26597569802783,
+            154.63575625240648
+          ],
+          [
+            -315.75974462382,
+            123.26268407900912
+          ],
+          [
+            -328.3810954981752,
+            118.57475375424859
+          ],
+          [
+            -325.49621529832257,
+            104.510962779967
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 10,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -351.0995270720147,
+            177.35418782624598
+          ],
+          [
+            -353.26318722190416,
+            128.31122442875122
+          ],
+          [
+            -321.8901150485068,
+            135.16281490340123
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 11,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -349.6570869720884,
+            179.87845800111702
+          ],
+          [
+            -321.8901150485068,
+            191.41797880052755
+          ],
+          [
+            -328.7417055231568,
+            214.85763042433018
+          ],
+          [
+            -320.8082849735621,
+            253.80351312234072
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 12,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -348.93586692212523,
+            176.9935778012644
+          ],
+          [
+            -307.10510402426206,
+            158.60246652720386
+          ],
+          [
+            -290.877652900091,
+            184.56638832587754
+          ],
+          [
+            -303.4990037744463,
+            196.82712917525123
+          ],
+          [
+            -294.1231431249252,
+            237.21545197318807
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 13,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -307.10510402426206,
+            158.96307655218544
+          ],
+          [
+            -304.94144387437257,
+            142.73562542801437
+          ],
+          [
+            -287.6321626752568,
+            128.6718344537328
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 14,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -69.45404904235797,
+            200.97175287282528
+          ],
+          [
+            -113.78427214537346,
+            207.7569911028787
+          ],
+          [
+            -119.66481194475307,
+            224.4939120703437
+          ],
+          [
+            -145.44871721895595,
+            226.30330893169128
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 15,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -69.45404904235797,
+            200.97175287282528
+          ],
+          [
+            -90.71446216319193,
+            224.04156285500682
+          ],
+          [
+            -85.28627157914921,
+            243.4925791144932
+          ],
+          [
+            -96.14265274723464,
+            274.25232575740193
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 16,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.190970009823,
+            252.99191263656795
+          ],
+          [
+            -64.93055688898905,
+            257.06305557459996
+          ],
+          [
+            -59.502366304946335,
+            228.56505500837574
+          ],
+          [
+            -82.57217628712786,
+            215.44692776360586
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 17,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.6446521810104,
+            200.97175287282528
+          ],
+          [
+            -39.14665161478616,
+            238.96908696112428
+          ],
+          [
+            -62.21646159696769,
+            241.68318225314565
+          ],
+          [
+            -64.47820767365215,
+            255.2536587132524
+          ],
+          [
+            -41.86074690680751,
+            258.87245243594754
+          ],
+          [
+            -31.909064169395876,
+            271.53823046538054
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 18,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -69.00169982702108,
+            201.4241020881622
+          ],
+          [
+            -13.815095555920168,
+            227.20800736236507
+          ],
+          [
+            -38.241953184112376,
+            238.5167377457874
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 19,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -69.45404904235797,
+            201.4241020881622
+          ],
+          [
+            -51.81242964421916,
+            171.11670466059036
+          ],
+          [
+            -21.505032216647344,
+            188.7583240587292
+          ],
+          [
+            -23.314429077994916,
+            208.66168953355248
+          ],
+          [
+            7.897666780250684,
+            227.66035657770195
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 20,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.73995375033661,
+            201.87645130349907
+          ],
+          [
+            -106.99903391532007,
+            172.47375230660106
+          ],
+          [
+            -91.61916059386571,
+            157.99857741582048
+          ],
+          [
+            -113.33192293003657,
+            132.66702135695448
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 21,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.54935061168419,
+            200.06705444215152
+          ],
+          [
+            -76.23928727241136,
+            148.95159310908264
+          ],
+          [
+            -62.21646159696769,
+            146.23749781706127
+          ],
+          [
+            -73.52519198039,
+            124.07238626555352
+          ],
+          [
+            -107.45138313065696,
+            137.6428627256603
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 22,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.6446521810104,
+            200.5194036574884
+          ],
+          [
+            -62.66881081230458,
+            157.5462282004836
+          ],
+          [
+            -7.482206541203669,
+            148.95159310908264
+          ],
+          [
+            -21.957381431984235,
+            187.8536256280554
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 23,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.86207986265802,
+            187.40127641271852
+          ],
+          [
+            -6.125158895192991,
+            192.37711778142432
+          ],
+          [
+            -5.220460464519205,
+            206.399943456868
+          ],
+          [
+            11.516460502945826,
+            210.47108639490003
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 24,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.1923029656735,
+            201.87645130349907
+          ],
+          [
+            -122.83125645211132,
+            193.73416542743502
+          ],
+          [
+            -143.1869711422715,
+            207.30464188754178
+          ],
+          [
+            -149.06751094165108,
+            204.59054659552044
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 25,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.97322807057007,
+            16.311661259014674
+          ],
+          [
+            -109.55825425943476,
+            10.637392701828693
+          ],
+          [
+            -111.82796168230915,
+            -39.86359745712656
+          ],
+          [
+            -49.97843440898193,
+            -42.13330488000095
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 29,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.41100755326334,
+            -43.268158591438144
+          ],
+          [
+            -37.49504358317277,
+            -10.357400959759445
+          ],
+          [
+            -59.62469095619811,
+            12.907100124703085
+          ],
+          [
+            -51.113288120419135,
+            36.171601209165615
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 30,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -51.68071497613773,
+            -42.70073173571955
+          ],
+          [
+            -93.10287544359541,
+            -68.23494024305647
+          ],
+          [
+            -113.53024224946495,
+            -52.91441513865432
+          ],
+          [
+            -127.1484867867113,
+            -69.93722081021227
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 31,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -50.545861264700534,
+            -42.13330488000095
+          ],
+          [
+            -64.16410580194689,
+            -80.71833106886564
+          ],
+          [
+            -88.56346059784661,
+            -84.69031905889582
+          ],
+          [
+            -97.0748634336256,
+            -107.95482014335835
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 32,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.84358069754474,
+            -43.835585447156745
+          ],
+          [
+            -29.551067603112397,
+            -86.39259962605162
+          ],
+          [
+            -44.30416585179595,
+            -107.38739328763975
+          ],
+          [
+            -32.388201881705385,
+            -119.87078411344892
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 33,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.97843440898193,
+            -43.268158591438144
+          ],
+          [
+            -5.151712807212669,
+            -27.947633487035993
+          ],
+          [
+            -9.123700797242858,
+            -4.115705546854864
+          ],
+          [
+            7.899104874315092,
+            11.20481955754729
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 34,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.84358069754474,
+            -43.835585447156745
+          ],
+          [
+            -5.719139662931267,
+            -61.99324483015189
+          ],
+          [
+            6.1968243071592966,
+            -37.59389003425216
+          ],
+          [
+            32.86588652593342,
+            -42.13330488000095
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 35,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.97843440898193,
+            -42.70073173571955
+          ],
+          [
+            -12.528261931554447,
+            -93.20172189467479
+          ],
+          [
+            0.5225557499733138,
+            -84.12289220317723
+          ],
+          [
+            6.764251162877895,
+            -92.6342950389562
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 36,
+        "featureType": "street",
+        "domain": "biological",
+        "scale": "fine",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            208.9259928771521,
+            487.1103287094821
+          ],
+          [
+            195.22281192785212,
+            349.35729916651894
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 39,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            232.36564450095474,
+            492.5194790842058
+          ],
+          [
+            213.25331317693107,
+            340.34204854197947
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 40,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            168.53767007921527,
+            448.16444601147157
+          ],
+          [
+            315.3059502467179,
+            439.1491953869321
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 41,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            162.40729965452843,
+            434.82187508715316
+          ],
+          [
+            318.19083044657054,
+            421.8399141878163
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 42,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            262.2962765744258,
+            488.91337883439
+          ],
+          [
+            260.1326164245363,
+            442.75529563674786
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 43,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            275.6388474987442,
+            486.02849863453736
+          ],
+          [
+            266.98420689918635,
+            338.5389984170716
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 44,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            269.1478670490758,
+            365.94536031567156
+          ],
+          [
+            291.5056885979337,
+            364.50292021574523
+          ],
+          [
+            301.6027692974179,
+            374.2393908902479
+          ],
+          [
+            304.4876494972705,
+            384.6970816147137
+          ],
+          [
+            305.2088695472337,
+            393.71233223925316
+          ],
+          [
+            304.4876494972705,
+            404.8912430136821
+          ],
+          [
+            305.2088695472337,
+            421.8399141878163
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 45,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            291.5056885979337,
+            364.86353024072685
+          ],
+          [
+            294.0299587728048,
+            356.9301096911321
+          ],
+          [
+            267.7054269491495,
+            342.5057086918689
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 46,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            223.35039387641527,
+            429.77333473741106
+          ],
+          [
+            268.4266469991126,
+            367.3878004155979
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 47,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            165.29217985438106,
+            392.99111218929
+          ],
+          [
+            270.5903071490021,
+            365.58475029069
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 48,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            201.35318235253897,
+            411.02161343836895
+          ],
+          [
+            160.9648595546021,
+            413.54588361324
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 49,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            181.88024100353368,
+            432.2976049122821
+          ],
+          [
+            180.43780090360738,
+            411.7428334883321
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 50,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            188.7318314781837,
+            385.41830166467685
+          ],
+          [
+            184.40451117840473,
+            357.65132974109525
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 51,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            262.20818233788253,
+            199.3354698302102
+          ],
+          [
+            421.29035438756097,
+            186.6696918007772
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 56,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            258.66176448964126,
+            173.49728265016688
+          ],
+          [
+            416.22404317578776,
+            154.75193116660603
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 57,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            361.0012509674599,
+            256.5847865232473
+          ],
+          [
+            341.2426372415444,
+            97.5026144735689
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 58,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            356.44157087686403,
+            217.5741901925937
+          ],
+          [
+            402.5450029040001,
+            187.17632292195452
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 59,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            343.2691617262537,
+            113.20817923006581
+          ],
+          [
+            307.8049832438413,
+            166.9110780748617
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 60,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            309.32487660737326,
+            194.7757897396143
+          ],
+          [
+            306.7917210014867,
+            166.40444695368438
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 61,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            281.966796063798,
+            197.81557646667824
+          ],
+          [
+            358.9747264827506,
+            241.89248400910506
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 62,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            265.75460018612375,
+            155.76519340896067
+          ],
+          [
+            317.4309745462104,
+            149.68561995483284
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 63,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            279.4336404579114,
+            231.25323046438135
+          ],
+          [
+            406.09142075224133,
+            225.1736570102535
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 64,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            385.0033347694197,
+            155.72638584034016
+          ],
+          [
+            377.1633347694197,
+            107.56638584034022
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 65,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            296.5233347694198,
+            153.48638584034018
+          ],
+          [
+            293.1633347694198,
+            116.52638584034021
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 66,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            569.9360590253931,
+            -112.32151981047711
+          ],
+          [
+            535.3186331053931,
+            -95.01280685047712
+          ],
+          [
+            522.1853253413113,
+            -118.40494514377156
+          ],
+          [
+            569.1628216969964,
+            -114.1342636568911
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 69,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            490.1552141897079,
+            -126.94630811753247
+          ],
+          [
+            651.0175501955385,
+            -102.03399944406313
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 70,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            504.39081914597614,
+            -154.70573778225545
+          ],
+          [
+            576.2806241751306,
+            -141.18191307380067
+          ],
+          [
+            549.232974758221,
+            -35.83843639741601
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 71,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            496.56123642002865,
+            -78.5452512662206
+          ],
+          [
+            594.7869106182792,
+            -57.90362407963172
+          ],
+          [
+            619.6992192917486,
+            -174.63558472103094
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 72,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            606.8871748311071,
+            -42.956238875550106
+          ],
+          [
+            632.5112637523899,
+            -162.53532050820297
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 73,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            563.4685797144891,
+            -86.3748339921681
+          ],
+          [
+            639.629066230524,
+            -72.85100928371332
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 74,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            574.8570636795038,
+            -140.47013282598726
+          ],
+          [
+            647.4586489564715,
+            -124.09918712627884
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 75,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            525.7442265803785,
+            -150.435056295375
+          ],
+          [
+            541.4033920322735,
+            -171.0766834819639
+          ],
+          [
+            559.1978982276087,
+            -180.3298267035382
+          ],
+          [
+            597.6340316095328,
+            -176.77092546447116
+          ],
+          [
+            616.1403180526816,
+            -160.39997976476275
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 76,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            505.81437964160295,
+            -62.174305566512174
+          ],
+          [
+            521.4735450934979,
+            -174.63558472103094
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 77,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            370.6245477322965,
+            669.9577860895538
+          ],
+          [
+            410.026668593396,
+            781.8089678888039
+          ],
+          [
+            447.5222352192809,
+            772.9117147911362
+          ],
+          [
+            456.4194883169485,
+            785.6220763592328
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 81,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            443.0736086704471,
+            787.5286305944473
+          ],
+          [
+            395.4097527900849,
+            642.6305087181462
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 82,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            357.2786680857951,
+            715.0795696562967
+          ],
+          [
+            500.27023572688177,
+            653.4343160510283
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 83,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            377.61524659474964,
+            757.0237628310155
+          ],
+          [
+            521.877850392646,
+            711.2664611858678
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 84,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            441.8025725136374,
+            627.3780748364302
+          ],
+          [
+            498.36368149166725,
+            765.2854978502783
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 85,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -135.67802639535856,
+            778.9446741703575
+          ],
+          [
+            -160.39103659944013,
+            669.7291129458681
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 89,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -166.76858761984826,
+            735.0990109050515
+          ],
+          [
+            -34.434403946379256,
+            770.1755415172963
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 90,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -173.14613864025642,
+            697.6308986601537
+          ],
+          [
+            -23.273689660665,
+            751.0428884560719
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 91,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.90251619127712,
+            787.7138068234187
+          ],
+          [
+            -60.74180190556285,
+            636.2469700887253
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 92,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.55940394637904,
+            633.0581945785212
+          ],
+          [
+            -75.09129170148118,
+            786.1194190683167
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 93,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -172.3489447627054,
+            697.6308986601537
+          ],
+          [
+            -156.40506721168504,
+            685.6729904968885
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 94,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -126.11169986474634,
+            699.2252864152557
+          ],
+          [
+            -135.67802639535856,
+            688.0645721295415
+          ],
+          [
+            -132.4892508851545,
+            676.1066639662762
+          ],
+          [
+            -122.12573047699125,
+            673.7150823336232
+          ],
+          [
+            -112.55940394637904,
+            682.4842149866844
+          ],
+          [
+            -115.7481794565831,
+            695.2393170275006
+          ],
+          [
+            -124.51731210964431,
+            700.0224802928068
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 95,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -156.40506721168504,
+            686.4701843744394
+          ],
+          [
+            -132.4892508851545,
+            690.4561537621945
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 96,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.76221006882801,
+            688.0645721295415
+          ],
+          [
+            -106.97904680352191,
+            660.1627864152558
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 97,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.97904680352191,
+            659.3655925377049
+          ],
+          [
+            -21.679301905562966,
+            673.7150823336232
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 98,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.39231210964453,
+            774.9587047826025
+          ],
+          [
+            -45.59511823209351,
+            643.4217149866845
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 99,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            759.9147669175776,
+            485.22364748239715
+          ],
+          [
+            805.4504812032918,
+            576.2950760538255
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 102,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            767.9504812032919,
+            545.9379331966827
+          ],
+          [
+            918.8433383461486,
+            492.36650462525427
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 103,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            904.5576240604344,
+            543.2593617681113
+          ],
+          [
+            857.2361954890059,
+            417.3665046252545
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 104,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            884.9147669175773,
+            438.7950760538258
+          ],
+          [
+            767.0576240604347,
+            538.7950760538256
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 105,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            783.1290526318633,
+            437.00936176811155
+          ],
+          [
+            862.5933383461488,
+            570.9379331966826
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 106,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            789.3790526318633,
+            565.5807903395398
+          ],
+          [
+            909.02190977472,
+            523.6165046252542
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 107,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            687.7899467512349,
+            957.7576221592202
+          ],
+          [
+            681.5482513383303,
+            975.9152815422153
+          ],
+          [
+            693.4642153084208,
+            988.9660992237431
+          ],
+          [
+            711.0544478356974,
+            991.8032335023361
+          ],
+          [
+            720.1332775271949,
+            978.7524158208083
+          ],
+          [
+            717.2961432486019,
+            953.78563416919
+          ],
+          [
+            700.273337577044,
+            950.3810730348785
+          ],
+          [
+            687.7899467512349,
+            958.8924758706573
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 111,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            682.6831050497675,
+            975.3478546864967
+          ],
+          [
+            665.6602993782095,
+            963.9993175721247
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 112,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            687.2225198955163,
+            956.0553415920643
+          ],
+          [
+            667.9300068010839,
+            939.5999627762251
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 113,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            716.1612895371647,
+            953.2182073134713
+          ],
+          [
+            738.29093691019,
+            891.9361068958628
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 114,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            721.8355580943507,
+            978.7524158208083
+          ],
+          [
+            821.1352578451052,
+            944.7068044776925
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 115,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            712.7567284028531,
+            895.3406680301745
+          ],
+          [
+            812.0564281536077,
+            1016.2025882982357
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 116,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            739.9932174773459,
+            1051.3830533527887
+          ],
+          [
+            799.00561047208,
+            999.7472094823964
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 117,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            711.6218746914159,
+            990.1009529351802
+          ],
+          [
+            765.5274259846827,
+            1047.9784922184772
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 118,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            696.3013495870138,
+            1034.9276745369496
+          ],
+          [
+            823.4049652679796,
+            947.5439387562855
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 119,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            499.4404891416644,
+            766.2852002775313
+          ],
+          [
+            507.44048914166433,
+            722.2852002775314
+          ]
+        ]
+      },
+      "properties": {
+        "streetId": 120,
+        "featureType": "street",
+        "domain": "urban",
+        "scale": "medium",
+        "blended": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -351,
+            181
+          ],
+          [
+            -273,
+            182
+          ],
+          [
+            -265,
+            202
+          ],
+          [
+            -197,
+            204
+          ],
+          [
+            -178,
+            175
+          ],
+          [
+            -67,
+            201
+          ]
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "featureType": "intersection",
+        "label": "Cellular Automata",
+        "nature": "method",
+        "description": "Both share a celllular automata model."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.53024224946495,
+            131.49931296989013
+          ],
+          [
+            -94.8051560107512,
+            61.13838286078394
+          ],
+          [
+            -69.83837435913287,
+            58.868675437909545
+          ],
+          [
+            -66.43381322482128,
+            -15.46424266122683
+          ],
+          [
+            -49.97843440898193,
+            -39.86359745712656
+          ]
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "featureType": "intersection",
+        "label": "Cellular Automata",
+        "nature": "method",
+        "description": "Both use Cellular Automata."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -289.43256752223044,
+            128.09475183557853
+          ],
+          [
+            -294.5394092236978,
+            76.4589079651861
+          ],
+          [
+            -268.43777386064227,
+            66.81265141796992
+          ],
+          [
+            -261.0612247363005,
+            88.94229879099525
+          ],
+          [
+            -213.96479571165685,
+            80.99832281093488
+          ],
+          [
+            -227.0156133931846,
+            -13.761962094071034
+          ],
+          [
+            -165.1660861198574,
+            -30.217340909910384
+          ],
+          [
+            -158.9243907069528,
+            -17.166523228382623
+          ],
+          [
+            -116.93480338377654,
+            -21.70593807413141
+          ],
+          [
+            -121.47421822952532,
+            -39.29617060140796
+          ],
+          [
+            -49.97843440898193,
+            -43.835585447156745
+          ]
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "featureType": "intersection",
+        "label": "Cellular Automata",
+        "nature": "method",
+        "description": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -32.48137593956305,
+            271.1645862024777
+          ],
+          [
+            79.9799032149557,
+            262.62322322871677
+          ],
+          [
+            87.09770569308981,
+            291.8062133890666
+          ],
+          [
+            192.44118236947446,
+            291.09443314125315
+          ],
+          [
+            197.42364410416835,
+            351.595754205393
+          ]
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "featureType": "intersection",
+        "label": "Networks",
+        "nature": "method",
+        "description": "Both use networks as the model representation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            265.64122276941987,
+            337.26232184033984
+          ],
+          [
+            267.64122276941987,
+            232.26232184033998
+          ],
+          [
+            281.6412227694198,
+            231.26232184033998
+          ]
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "featureType": "intersection",
+        "label": "Walkability",
+        "nature": "concept",
+        "description": "Both methods tackle walkability. One from a qualitative perspective and the other from a quantitative one."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            378.0823420825059,
+            106.23489820590025
+          ],
+          [
+            508.4956266393057,
+            42.790597610700324
+          ],
+          [
+            549.0294853529057,
+            -41.80180318289959
+          ]
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "featureType": "intersection",
+        "label": "Walkability",
+        "nature": "concept",
+        "description": "Both use the same methods, but in this one, we are studying the impact of sociodemographic factors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            233.06204482475528,
+            495.5937535950512
+          ],
+          [
+            292.85578050475516,
+            577.4167603150511
+          ],
+          [
+            267.67947074475524,
+            612.034186235051
+          ],
+          [
+            303.8704160247552,
+            659.2397670350509
+          ],
+          [
+            336.9143225847551,
+            627.7693798350509
+          ],
+          [
+            373.10526786475504,
+            676.5484799950509
+          ]
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "featureType": "intersection",
+        "label": "Computer vision and AI",
+        "nature": "concept",
+        "description": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -25.40803847887799,
+            750.7318512866198
+          ],
+          [
+            87.38182924592174,
+            756.0188763362197
+          ],
+          [
+            96.19353766192172,
+            793.0280516834197
+          ],
+          [
+            233.6561889515214,
+            782.4540015842197
+          ],
+          [
+            245.99258073392136,
+            727.8214094050198
+          ],
+          [
+            360.5447901419211,
+            717.2473593058198
+          ]
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "featureType": "intersection",
+        "label": "Computer vision and AI",
+        "nature": "concept",
+        "description": "Both focus on the design of culturally-aware systems for Mexico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            497.4404891416644,
+            763.2852002775313
+          ],
+          [
+            665.4404891416639,
+            938.2852002775307
+          ]
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "featureType": "intersection",
+        "label": "Computer vision and AI",
+        "nature": "concept",
+        "description": "They cluster-then-predict is part of the library."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            734.7709164398043,
+            894.6878642362301
+          ],
+          [
+            756.877730513865,
+            717.8333516437441
+          ],
+          [
+            805.5127214767987,
+            717.8333516437441
+          ],
+          [
+            803.3020400693925,
+            574.1390601623493
+          ]
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "featureType": "intersection",
+        "label": "Computer vision and AI",
+        "nature": "concept",
+        "description": "The imageable library is used to detect materials in the sensor data study."
+      }
+    }
+  ]
+}
